@@ -1,0 +1,22 @@
+{%extends "layout.html"%}
+{%block content%}
+<div class="container-fluid">
+            
+    <div class="column_reg">
+        <br>
+        <h2><strong>Let Us Know You</strong></h2><br>
+        <h4>For Enquiries please register</h4>
+        <input
+        data-toggle="tooltip" title="Less than 15 charactors" 
+        type="text" id="name" placeholder="Enter Your Name" required ><br><br>
+        <input 
+        data-toggle="tooltip" title="Email"
+        type="email" id="email" placeholder="Enter Email Id" required><br><br>
+        <input 
+        data-toggle="tooltip" title="Mobile"
+        type="text" id="mob" placeholder="Mobile Number" required><br><br>
+        <input type="button" id="button" value="Register!" onclick="submit()"><br><br>
+        <label id="result"></label>                        
+        </div>
+</div>
+{%endblock%}
